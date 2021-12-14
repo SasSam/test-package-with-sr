@@ -1,0 +1,74 @@
+{
+    "root": true, // Make sure eslint picks up the config at the root of the directory
+    "parserOptions": {
+        "ecmaVersion": 2021, // Use the latest ecmascript standard
+        "sourceType": "module" // Allows using import/export statements
+    },
+    "env": {
+        "browser": true, // Enables browser globals like window and document
+        "amd": true, // Enables require() and define() as global variables as per the amd spec.
+        "node": true, // Enables Node.js global variables and Node.js scoping.
+        "es2021": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "airbnb-base",
+        "plugin:prettier/recommended", // Make this the last element so prettier config overrides other formatting rules
+        "prettier",
+        "plugin:sonarjs/recommended"
+    ],
+    "plugins": ["simple-import-sort", "sonarjs"],
+    "rules": {
+        "prettier/prettier": ["error", {}, {"usePrettierrc": true}], // Use our .prettierrc file as source
+        "simple-import-sort/imports": "error",
+        "no-unexpected-multiline": "error",
+        "comma-dangle": ["error", "never"],
+        "linebreak-style": ["error", "unix"],
+        "no-underscore-dangle": 0,
+        "class-methods-use-this": 0,
+        "func-names": 0,
+        "no-plusplus": 0,
+        // "indent": [
+        //     1,
+        //     4,
+        //     {
+        //         "SwitchCase": 1
+        //     }
+        // ],
+        "import/no-unresolved": 0,
+        "import/extensions": 0,
+        "import/no-named-as-default": 0,
+        "no-console": 0,
+        // "require-jsdoc": [
+        //     "error",
+        //     {
+        //         "require": {
+        //             "FunctionDeclaration": true,
+        //             "MethodDefinition": true,
+        //             "ClassDeclaration": true,
+        //             "FunctionExpression": true,
+        //             "ArrowFunctionExpression": true
+        //         }
+        //     }
+        // ],
+        // "valid-jsdoc": [
+        //     "error",
+        //     {
+        //         "requireReturn": true,
+        //         "requireReturnType": true,
+        //         "requireParamDescription": true,
+        //         "requireReturnDescription": true
+        //     }
+        // ]
+
+        "import/no-extraneous-dependencies": 0
+        // "import/no-extraneous-dependencies": [
+        //     "warn",
+        //     {
+        //         "devDependencies": true,
+        //         "optionalDependencies": true,
+        //         "peerDependencies": true
+        //     }
+        // ]
+    }
+}
