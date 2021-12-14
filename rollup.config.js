@@ -8,7 +8,7 @@ import {terser} from 'rollup-plugin-terser';
 import pkg from './package.json';
 
 const production = !process.env.ROLLUP_WATCH;
-const external = Object.keys(pkg.peerDependencies);
+const external = Object.keys(pkg?.peerDependencies || {});
 
 const plugins = [
     eslint({
