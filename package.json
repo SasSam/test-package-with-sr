@@ -1,5 +1,5 @@
 {
-  "name": "@sas_sam/test-package-with-sr",
+  "name": "test-package-with-sr",
   "version": "1.0.0",
   "description": "Github NPM semantic release test",
   "main": "dist/index.js",
