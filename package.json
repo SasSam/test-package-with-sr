@@ -1,6 +1,6 @@
 {
   "name": "@sas_sam/test-package-with-sr",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Github NPM semantic release test",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
