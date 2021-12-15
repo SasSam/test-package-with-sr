@@ -1,5 +1,12 @@
 Test package
 
+# [1.1.0](https://github.com/SasSam/test-package-with-sr/compare/v1.0.3...v1.1.0) (2021-12-15)
+
+
+### Features
+
+* testing Next branch ([bb62c13](https://github.com/SasSam/test-package-with-sr/commit/bb62c1301915b071f95b9cd9d293fdb71d33cb04))
+
 ## [1.0.3](https://github.com/SasSam/test-package-with-sr/compare/v1.0.2...v1.0.3) (2021-12-15)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "test-package-with-sr",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Github NPM semantic release test",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
