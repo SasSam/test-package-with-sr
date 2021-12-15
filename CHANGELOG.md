@@ -1,5 +1,12 @@
 Test package
 
+## [1.0.2-beta.2](https://github.com/SasSam/test-package-with-sr/compare/v1.0.2-beta.1...v1.0.2-beta.2) (2021-12-15)
+
+
+### Bug Fixes
+
+* testing CI with a beta fix ([9ef5216](https://github.com/SasSam/test-package-with-sr/commit/9ef52169acdaa0b83d4a4e6cdce9ec0a085d56e1))
+
 ## [1.0.2-beta.1](https://github.com/SasSam/test-package-with-sr/compare/v1.0.1...v1.0.2-beta.1) (2021-12-14)
 
 
