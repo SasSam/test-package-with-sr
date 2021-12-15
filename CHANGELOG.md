@@ -1,5 +1,12 @@
 Test package
 
+## [1.0.4](https://github.com/SasSam/test-package-with-sr/compare/v1.0.3...v1.0.4) (2021-12-15)
+
+
+### Bug Fixes
+
+* a fix in 1.0.x ([d7de0a0](https://github.com/SasSam/test-package-with-sr/commit/d7de0a055fc7235950057aded4e5ab12e183cbfd))
+
 ## [1.0.3](https://github.com/SasSam/test-package-with-sr/compare/v1.0.2...v1.0.3) (2021-12-15)
 
 
